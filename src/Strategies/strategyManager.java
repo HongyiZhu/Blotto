@@ -6,7 +6,8 @@ public class strategyManager
 		new random(),
 		new random2(),
 		new matching(),
-		new matching2()
+		new matching2(),
+		new Hongyi()
 	};
 
 	public static strategy getStrategy(String name) throws Exception
